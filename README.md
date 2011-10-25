@@ -14,8 +14,8 @@ CodeIgniter-Breadcrumb is a library that helps your build HTML breadcrumbs with 
 	$this->load->library('breadcrumb');
 	
 	// add breadcrumbs
-	$this->breadcrumb->appendCrumb('Home', '/');
-	$this->breadcrumb->appendCrumb('Page', '/page');
+	$this->breadcrumb->append_crumb('Home', '/');
+	$this->breadcrumb->append_crumb('Page', '/page');
 	
 	// put this line in view to output
 	$this->breadcrumb->output();
